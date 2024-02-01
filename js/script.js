@@ -10,9 +10,8 @@ var news = {
       trending: true,
     },
     {
-      title: "Sports Update: Team Wins Championship",
-      description:
-        "In a thrilling finale last night, the local team clinched victory in the championship game, securing their place in sports history. The match, which kept fans on the edge of their seats until the final whistle, showcased the team's skill, determination, and unwavering teamwork. From nail-biting plays to spectacular goals, the game had it all, culminating in an unforgettable celebration as the players lifted the championship trophy amidst cheers and confetti. This win not only cements their status as champions but also serves as inspiration for aspiring athletes everywhere.",
+      title: "Latest Videos - Sports Update: Team Wins Championship",
+      description: "",
       video: "https://www.youtube.com/embed/PyoetdmbxBw?si=7iunga_E6SVQ_rbV",
       category: "Sports",
       trending: true,
@@ -26,28 +25,41 @@ var news = {
       trending: false,
     },
     {
-      title: "Sports Highlight: Record-Breaking Marathon Finish",
-      description:
-        "History was made on the marathon course today as a determined athlete shattered records and defied expectations with an awe-inspiring performance. Battling fatigue, pain, and blistering heat, the runner pushed through the grueling 26.2-mile race with unwavering resolve, crossing the finish line in a time that stunned spectators and competitors alike. With cheers ringing in their ears and tears of joy streaming down their face, the athlete's triumph stands as a testament to the human spirit's limitless potential and the power of perseverance in the face of adversity.",
+      title:
+        "Latest Videos - Sports Highlight: Record-Breaking Marathon Finish",
+      description: "",
       video: "https://www.youtube.com/embed/4AEA1y6yQRo?si=kUFRM3Ky0btZXp9i",
       category: "Sports",
       trending: false,
     },
     {
-      title: "Entertainment Update: Celebrity Wedding Extravaganza",
-      description:
-        "Hollywood's hottest couple tied the knot in a star-studded ceremony, dazzling fans with their lavish celebration of love and commitment. From the breathtaking venue adorned with flowers and fairy lights to the exquisite attire fit for royalty, every detail was meticulously planned to perfection, ensuring an unforgettable experience for all in attendance. As A-list guests mingled and champagne flowed freely, the newlyweds took center stage, exchanging vows amidst a backdrop of applause and camera flashes, marking the beginning of a new chapter filled with endless possibilities and shared dreams.",
+      title:
+        "Photo feature - Entertainment Update: Brad Angelina Attend Event Together",
+      description: "",
       image: "./assets/hollywood-marriage.jpg",
       category: "Entertainment",
-      trending: true,
+      trending: false,
     },
     {
-      title: "Entertainment Scoop: Blockbuster Sequel Announcement",
-      description:
-        "The much-awaited sequel to a beloved film franchise was officially announced by the studio, sending fans into a frenzy of excitement and anticipation. With social media ablaze with speculation and theories, the reveal trailer offered tantalizing glimpses of familiar characters, thrilling action sequences, and epic storylines that promise to surpass the original in every way. As devotees eagerly mark their calendars and countdown to the release date, the sequel's arrival heralds a new era of adventure, nostalgia, and cinematic excellence that's sure to captivate audiences worldwide.",
+      title: "Photo feature - Entertainment Scoop: Dune Part 2 Latest Photo",
+      description: "",
       image: "./assets/dune.jpg",
       category: "Entertainment",
       trending: false,
+    },
+    {
+      title: "Photo feature - Oscar Snub: Barbie Left Out",
+      description: "",
+      image: "./assets/barbie.jpg",
+      category: "Entertainment",
+      trending: false,
+    },
+    {
+      title: "Photo feature -  New Supergirl: Milly Alcock",
+      description: "",
+      image: "./assets/supergirl.jpg",
+      category: "Entertainment",
+      trending: true,
     },
     {
       title: "Tech News: Breakthrough in Artificial Intelligence",
@@ -65,6 +77,31 @@ var news = {
       image: "./assets/watch.jpg",
       video: "https://www.youtube.com/embed/oNCs4C2SMjo?si=Aql3vIokJ_pjLzlK",
       category: "Tech",
+      trending: false,
+    },
+    {
+      title: "Tech Breakthrough: Quantum Computing Milestone Achieved",
+      description:
+        "In a groundbreaking achievement that promises to revolutionize computing as we know it, scientists have reached a significant milestone in the development of quantum computing technology. Leveraging the principles of quantum mechanics, researchers successfully demonstrated the ability to manipulate and control qubits with unprecedented precision and stability, overcoming longstanding technical challenges that have hindered progress in this field. With the potential to exponentially increase computational power and solve complex problems that are currently beyond the reach of classical computers, this breakthrough heralds a new era of innovation and discovery with far-reaching implications for science, industry, and society at large.",
+      image: "./assets/quantum.jpg",
+      video: "https://www.youtube.com/embed/XlCsi8zagNw?si=7_XhCnsl8sAR0Jl4",
+      category: "Tech",
+      trending: false,
+    },
+    {
+      title:
+        "Latest Videos - Football Update: Legendary Rivalry Renewed in High-Stakes Derby",
+      description: "",
+      video: "https://www.youtube.com/embed/AiT_HWFGN-I?si=oT5DqMF7ajxa8RwR",
+      category: "Sports",
+      trending: false,
+    },
+    {
+      title:
+        "Latest Videos - Basketball Buzz: All-Star Showdown Raises the Roof with Jaw-Dropping Plays",
+      description: "",
+      video: "https://www.youtube.com/embed/hV1c7qEGkew?si=F7I1mJDhPZGVdWZQ",
+      category: "Sports",
       trending: false,
     },
   ],
