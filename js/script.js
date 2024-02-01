@@ -5,7 +5,7 @@ var news = {
       title: "Breaking News: Earthquake Hits Major City",
       description:
         "A powerful earthquake struck a major city today, causing widespread damage to buildings and infrastructure. The quake, measuring 7.2 on the Richter scale, shook the region for nearly a minute, sending residents fleeing into the streets in panic. Reports of collapsed buildings and injuries are pouring in, with emergency services scrambling to assess the situation and provide aid to those in need. The full extent of the damage and casualties is yet to be determined, but authorities are urging residents to remain vigilant and stay safe amidst the ongoing aftershocks.",
-      image: "../assets/earthquake.jpg",
+      image: "./assets/earthquake.jpg",
       category: "General",
       trending: true,
     },
@@ -21,7 +21,7 @@ var news = {
       title: "General News: Political Unrest in Capital City",
       description:
         "Mass protests erupted in the capital city today as citizens demand political reforms, echoing their calls for change heard across the nation. Thousands took to the streets, chanting slogans and waving banners, as they voiced their grievances and called for accountability from government officials. Tensions escalated as clashes broke out between protesters and law enforcement, with reports of injuries and arrests making headlines around the world. As the situation remains fluid, all eyes are on the capital, where the fate of the nation hangs in the balance amid calls for dialogue and reconciliation.",
-      image: "../assets/protest.jpg",
+      image: "./assets/protest.jpg",
       category: "General",
       trending: false,
     },
@@ -37,7 +37,7 @@ var news = {
       title: "Entertainment Update: Celebrity Wedding Extravaganza",
       description:
         "Hollywood's hottest couple tied the knot in a star-studded ceremony, dazzling fans with their lavish celebration of love and commitment. From the breathtaking venue adorned with flowers and fairy lights to the exquisite attire fit for royalty, every detail was meticulously planned to perfection, ensuring an unforgettable experience for all in attendance. As A-list guests mingled and champagne flowed freely, the newlyweds took center stage, exchanging vows amidst a backdrop of applause and camera flashes, marking the beginning of a new chapter filled with endless possibilities and shared dreams.",
-      image: "../assets/hollywood-marriage.jpg",
+      image: "./assets/hollywood-marriage.jpg",
       category: "Entertainment",
       trending: true,
     },
@@ -45,7 +45,7 @@ var news = {
       title: "Entertainment Scoop: Blockbuster Sequel Announcement",
       description:
         "The much-awaited sequel to a beloved film franchise was officially announced by the studio, sending fans into a frenzy of excitement and anticipation. With social media ablaze with speculation and theories, the reveal trailer offered tantalizing glimpses of familiar characters, thrilling action sequences, and epic storylines that promise to surpass the original in every way. As devotees eagerly mark their calendars and countdown to the release date, the sequel's arrival heralds a new era of adventure, nostalgia, and cinematic excellence that's sure to captivate audiences worldwide.",
-      image: "../assets/dune.jpg",
+      image: "./assets/dune.jpg",
       category: "Entertainment",
       trending: false,
     },
@@ -53,7 +53,7 @@ var news = {
       title: "Tech News: Breakthrough in Artificial Intelligence",
       description:
         "Researchers achieved a major breakthrough in AI technology, paving the way for revolutionary applications that promise to transform industries and improve lives. Leveraging cutting-edge algorithms and computational power, the new AI model demonstrates unprecedented capabilities in tasks ranging from natural language processing to image recognition and autonomous decision-making. With implications spanning healthcare, finance, transportation, and beyond, the breakthrough heralds a new era of innovation and discovery, fueling optimism for a future powered by intelligent machines that augment human potential and enhance societal progress.",
-      image: "../assets/ai.jpg",
+      image: "./assets/ai.jpg",
       video: "https://www.youtube.com/embed/E_a78HF4Q1c?si=o_2EoGfQg5_mmdRL",
       category: "Tech",
       trending: false,
@@ -62,7 +62,7 @@ var news = {
       title: "Tech Update: Latest Gadgets Unveiled at Tech Expo",
       description:
         "Tech enthusiasts were treated to a sneak peek of the latest gadgets and innovations showcased at the annual tech expo, where innovation and ingenuity took center stage. From sleek smartphones with cutting-edge features to futuristic wearables that seamlessly integrate into everyday life, the expo offered a glimpse into the future of technology and its transformative impact on society. As attendees marveled at the displays, interacted with prototypes, and attended keynote presentations by industry leaders, excitement reached a fever pitch, igniting imaginations and inspiring the next generation of innovators to push the boundaries of what's possible.",
-      image: "../assets/watch.jpg",
+      image: "./assets/watch.jpg",
       video: "https://www.youtube.com/embed/oNCs4C2SMjo?si=Aql3vIokJ_pjLzlK",
       category: "Tech",
       trending: false,
