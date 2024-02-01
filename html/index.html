@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top News</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+     <!-- Header and Links -->
+    <header id="page-header">
+        <h1>Top News</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="alert('View these categories from the sidebar')">Home</a></li>
+            <li><a href="#" onclick="alert('View these categories from the sidebar')">Sports</a></li>
+            <li><a href="#" onclick="alert('View these categories from the sidebar')">Entertainment</a></li>
+            <li><a href="#" onclick="alert('View these categories from the sidebar')">Tech</a></li>
+        </ul>
+            </ul>
+        </nav>
+    </header>
+
+     <!-- Show the latest top news-->
+    <main>
+        <section id="top-news">
+        </section>
+    </main>
+
+     <!-- Categories subscription container -->
+    <aside>
+        <h2>Categories</h2>
+        <button id="home-btn">Home</button>
+        <div style="background-color: antiquewhite; color: gray; padding: 5px;">
+            <h5>Add a news category to your subscription. Once subscribed, clicking on a subscribed category will display the related news articles from that category. </h5>
+        </div>
+       
+        <ul id="sidebar" class="category-list">
+        </ul>
+        <div id="add-category">
+           
+            <select id="category-select">
+                <option value="Sports">Sports</option>
+                <option value="Tech">Tech</option>
+                <option value="General">General</option>
+                <option value="Entertainment">Entertainment</option>
+            </select><br />
+            <button id="add-btn" >Add</button>
+        </div>
+        <div id="unsubscribe-btn-container">
+            <button id="unsubscribe-btn">Unsubscribe categories</button>
+            <div id="unsubscribe-list" style="display: none;"></div>
+        </div>
+    </aside>
+
+     <!-- Popup message when hovering the header -->
+    <div id="popup-message" class="popup-message">
+       You are browsing the latest news by categories. 
+    </div>
+
+     <!-- Color scheme button on the bottom right -->
+    <button id="color-scheme-btn" class="color-scheme-btn">Change Color Scheme</button>
+
+     <!-- Footer with my name -->
+    <footer id="page-footer">
+        <p>Created by Bishal Banstola</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

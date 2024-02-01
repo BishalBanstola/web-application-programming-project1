@@ -1,0 +1,160 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: white; 
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+
+main {
+    padding: 20px;
+    margin-left: 20%;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+/*  styling category selction container that will only occupy 15% width on the left */
+aside {
+    width: 15%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color:#0056b3;
+    position: absolute; 
+    height: 100%; 
+    top: 130px;
+    left: 0;
+}
+
+aside h2 {
+    margin-top: 0;
+}
+
+ul#sidebar {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul#sidebar li {
+    cursor: pointer;
+}
+
+video {
+    width: 100%;
+}
+
+/*  main will cover 80% space */
+main {
+    width: 80%;
+    float: right;
+    margin-left: 20%;
+}
+
+/*  style for popup message on hover */
+.popup-message {
+    display: none;
+    position: absolute;
+    top: 50px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.popup-message.show {
+    display: block;
+}
+
+/*  styling color scheme buttons and placing it on bottom right */
+.color-scheme-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.color-scheme-btn:hover {
+    background-color: #0056b3;
+}
+
+#page-footer {
+    color: #2b2b2b; 
+    text-align: center; 
+    padding: 20px 0; 
+    width: 100%;
+}
+/*  all images have fixed width and height */
+img {
+    max-width: 100%; 
+    height: auto;
+    width: 700px; 
+    height: 500px;
+}
+
+/*  styling unsubscribe container to give it more space */
+#unsubscribe-btn-container {
+    margin-top: 20px;
+}
+
+#unsubscribe-list {
+    display: none; 
+    margin-top: 10px;
+}
+
+
+.remove-btn {
+    margin-left: 10px; 
+    padding: 5px 10px; 
+}
+
+/*  styling all buttons */
+button {
+    padding: 8px 16px;
+    margin: 4px;
+    border: none;
+    border-radius: 4px;
+    background-color: #d63031;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff7675;
+}
